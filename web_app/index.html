@@ -1,25 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <title>Help Store</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PS Store — Магазин</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Help Store</h1>
-  </header>
+    <header>
+        <h1>🎮 PS Store</h1>
+        <nav>
+            <a href="#games">Игры</a>
+            <a href="#subscriptions">Подписки</a>
+            <a href="#discounts">Скидки</a>
+            <a href="https://store.playstation.com/en-tr/pages/latest" target="_blank">Полный каталог</a>
+        </nav>
+    </header>
 
-  <nav>
-    <button onclick="showCategory('rpg')">Ролевые</button>
-    <button onclick="showCategory('action')">Шутер</button>
-    <button onclick="showCategory('sports')">Спорт</button>
-  </nav>
+    <section id="games">
+        <h2>🔥 Популярные игры</h2>
+        <div class="product">
+            <h3>Elden Ring</h3>
+            <p>Цена: 1999₽</p>
+            <a href="#" class="buy-button">Купить</a>
+        </div>
+        <div class="product">
+            <h3>God of War: Ragnarok</h3>
+            <p>Цена: 2499₽</p>
+            <a href="#" class="buy-button">Купить</a>
+        </div>
+    </section>
 
-  <section id="products">
-    <!-- Здесь будут карточки товаров -->
-  </section>
+    <section id="subscriptions">
+        <h2>📅 Подписки</h2>
+        <p>PlayStation Plus, Extra, Deluxe...</p>
+        <a href="https://store.playstation.com/en-in/subscriptions" target="_blank">Открыть</a>
+    </section>
 
-  <script src="script.js"></script>
+    <section id="discounts">
+        <h2>💸 Скидки</h2>
+        <p>Сейчас в PS Store действует множество акций.</p>
+        <a href="https://store.playstation.com/en-in/deals" target="_blank">Смотреть акции</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 PS Store — Проект Telegram-бота и WebApp</p>
+    </footer>
 </body>
 </html>

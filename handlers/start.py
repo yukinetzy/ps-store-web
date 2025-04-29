@@ -22,7 +22,7 @@ async def start_handler(message: Message):
     conn.close()
 
     markup = InlineKeyboardMarkup(inline_keyboard=[
-        [InlineKeyboardButton(text="Открыть магазин", web_app=WebAppInfo(url="https://store.playstation.com/en-tr/pages/latest"))],
+        [InlineKeyboardButton(text="Открыть магазин", web_app=WebAppInfo(url="https://yukinetzy.github.io/ps-store-web/"))],
         [InlineKeyboardButton(text="🛒 Корзина", callback_data="cart_menu")],
         [InlineKeyboardButton(text="👤 Личный кабинет", callback_data="profile_menu")]
     ])
