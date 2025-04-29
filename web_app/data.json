@@ -1,0 +1,16 @@
+{
+  "rpg": [
+    {
+      "name": "Witcher 3",
+      "price": 299,
+      "ps_link": "https://store.playstation.com/en-tr/product/123"
+    }
+  ],
+  "action": [
+    {
+      "name": "God of War",
+      "price": 399,
+      "ps_link": "https://store.playstation.com/en-tr/product/456"
+    }
+  ]
+}
