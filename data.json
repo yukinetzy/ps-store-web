@@ -1,16 +1,32 @@
 {
   "rpg": [
     {
-      "name": "Witcher 3",
+      "name": "The Witcher 3: Wild Hunt",
       "price": 299,
-      "ps_link": "https://store.playstation.com/en-tr/product/123"
+      "ps_link": "https://store.playstation.com/en-tr/product/123",
+      "image": "images/witcher3.jpg"
+    },
+    {
+      "name": "Elden Ring",
+      "price": 2499,
+      "ps_link": "https://store.playstation.com/en-tr/product/456",
+      "image": "images/eldenring.jpg"
     }
   ],
   "action": [
     {
-      "name": "God of War",
-      "price": 399,
-      "ps_link": "https://store.playstation.com/en-tr/product/456"
+      "name": "God of War: Ragnarök",
+      "price": 3499,
+      "ps_link": "https://store.playstation.com/en-tr/product/789",
+      "image": "images/gow.jpg"
+    }
+  ],
+  "sports": [
+    {
+      "name": "FIFA 24",
+      "price": 1999,
+      "ps_link": "https://store.playstation.com/en-tr/product/101",
+      "image": "images/fifa24.jpg"
     }
   ]
 }

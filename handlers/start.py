@@ -17,7 +17,7 @@ async def start_handler(message: Message):
         curs.execute('INSERT INTO users (user_id, username) VALUES (?, ?)', (user_id, username))
         conn.commit()
     except sqlite3.IntegrityError:
-        pass  # пользователь уже есть, ничего не делаем
+        pass
 
     conn.close()
 
